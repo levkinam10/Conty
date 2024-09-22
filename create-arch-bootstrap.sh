@@ -40,15 +40,11 @@ export packagelist="${audio_pkgs} ${video_pkgs} ${wine_pkgs} ${devel_pkgs} \
 	steam-native-runtime gamemode lib32-gamemode jre17-openjdk lxterminal \
 	steamtinkerlaunch mangohud lib32-mangohud qt6-wayland wayland \
 	lib32-wayland qt5-wayland retroarch xorg-server-xephyr openbox \
-	obs-studio gamehub minigalaxy legendary gamescope prismlauncher yt-dlp \
-	bottles playonlinux minizip retroarch-assets-ozone libretro-beetle-psx-hw \
-	libretro-blastem libretro-bsnes libretro-dolphin libretro-duckstation \
-	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia \
-	libretro-parallel-n64 libretro-pcsx2 libretro-picodrive libretro-ppsspp \
-	libretro-retrodream libretro-yabause sunshine nautilus"
+	gamescope prismlauncher yt-dlp \
+	playonlinux minizip sunshine nautilus yay"
 
 # If you want to install AUR packages, specify them in this variable
-export aur_packagelist=""
+export aur_packagelist="mc-git"
 
 # ALHP is a repository containing packages from the official Arch Linux
 # repos recompiled with -O3, LTO and optimizations for modern CPUs for
